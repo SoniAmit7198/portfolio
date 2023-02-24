@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-------------- unicons --------------->
 
+    <!------------- swiper css --------------------->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!------------- swiper css --------------------->
+
 
 
 
@@ -32,7 +36,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
@@ -52,7 +56,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#Contact" class="nav__link">
+                        <a href="#contact" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> Contactme
                         </a>
                     </li>
@@ -60,6 +64,9 @@
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
             <div class="nav__btns">
+                <!-- theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -231,7 +238,7 @@
                 </div>
             </div>
         </section>
-
+          <!------------ qualification ---------->
         <section class="qualification section">
             <h2 class="section__title">Qualification</h2>
             <span class="section__subtitle">My personal journey</span>
@@ -255,7 +262,7 @@
 
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qulification__title">Mechnical Engineer</h3>
+                                <h3 class="qulification__title">B.Tech</h3>
                                 <span class="qualification__subtitle">Parul University</span>
                                 <div class="qualification__calender">
                                     <i class="uil uil-calendar-alt"></i>
@@ -341,26 +348,25 @@
 
             </div>
         </section>
-
+                <!------------ portfolio--------- -->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfilio</h2>
             <span class="section__subtitle">Most recent work</span>
 
-            <div class="portfolio__container container">
-                <div>
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
 
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <div class="portfolio__img">
 
                         </div>
                         <div class="portfilio__data">
 
                             <h3 class="portfolio__title">Morden Website</h3>
-                            <p class="portfolio__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Excepturi explicabo sed perferendis iste consequuntur itaque tenetur rem veniam repud
+                            <p class="portfolio__discription">This Website is made by Bootstrap & responsive for all screens(Mobile, Tabs, Computers etc.)
                             </p>
 
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="Bootstrap/index.html" class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -368,18 +374,17 @@
                         </div>
                     </div>
 
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <div class="portfolio__img portfolio__img1">
 
                         </div>
                         <div class="portfilio__data">
 
                             <h3 class="portfolio__title">Morden Website</h3>
-                            <p class="portfolio__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Excepturi explicabo sed perferendis iste consequuntur itaque tenetur rem veniam repud
+                            <p class="portfolio__discription">This Webpage is made by HTML,CSS, & responsive for all screens(Mobile, Tabs, Computers etc.) using media quary.
                             </p>
 
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="Real-Estatet/index.html" class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -387,41 +392,142 @@
                         </div>
                     </div>
 
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <div class="portfolio__img portfolio__img2">
 
                         </div>
                         <div class="portfilio__data">
 
                             <h3 class="portfolio__title">Morden Website</h3>
-                            <p class="portfolio__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Excepturi explicabo sed perferendis iste consequuntur itaque tenetur rem veniam repud
+                            <p class="portfolio__discription">This Webpage is made by HTML,CSS, & responsive for 500px or less using media quary.
                             </p>
 
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="Be-Be/index.html" class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
 
                         </div>
                     </div>
-
-
-
-
-
-
-
                 </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container gird">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+91 7202051321</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle ">soniamit711998@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Ahemdabad</span>
+                        </div>
+                    </div>
+                </div>
 
 
+                <form action="" class="contact__form gird">
+                    <div class="contact__inputs gird">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        <a href="" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
 
 
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container gird">
+                <div>
+                    <h1 class="footer__title">Amit</h1>
+                    <span class="footer__subtitle">Web Designer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
 
-        <script src="js/main.js"></script>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569849%7Cb%7Cfacebook%20%27%7C&placement=&creative=589460569849&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D9061750%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAl9efBhAkEiwA4Torim7gCIz_FL0cQY1iX1G_fmxOF1voPU0GjeStYvTNnoWGXkuGllVsQBoCXasQAvD_BwE" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/amit__soni_071?igshid=YmMyMTA2M2Y=" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+            <p class="footer__copy">&#169; Amit soni </p>
+        </div>
+
+    </footer>
+
+    <!------- scroll top ------>
+    <a href="#" class="scrollup" id="scroll-up" style="scroll-behavior: smooth;">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+    <!---------------- swiper js ------------------->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-------------- main js ----------------->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
