@@ -1,0 +1,274 @@
+@media(min-width: 250px)
+{
+	.header .blank1{width: 0%;}
+	.header .singin{width: 100%;border: none;}
+	.sing_in{left: 0%;width: 270px;}
+	.sing_up{left: 0%;width: 270px;}
+	.box_icon .abc{margin: 0px 2px;}
+	.main{width: 100%;}
+	.main .img{padding: 0px 10px;height: 300px;}
+	.main .form p{letter-spacing: 0px;font-size: 8px;}
+	.main .form .x{margin-top: 30px;}
+	.main .form .sumbit{padding: 10px 20px 10px;font-size: 14px;}
+	.header2 .search{width:100%;}
+	.header2 .search input{width: 70%;}
+	.header2 .logo{width:100%; font-size: 44px;}
+	.header2 .icon{width:100%;}
+	.header2 .icon .share{width: 50%;}
+	.header2 .icon .last{width: 50%;}
+	.nav{position: relative;}
+	.nav .btn .butadd{width: 100%;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .dropdwon1.extra{display: block;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .dropdwon1.extra1{display: block;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .dropdwon1.extra2{display: block;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon{position: unset;}
+	.nav .nav_menu .nevigation_ul .menus .Short{position: unset;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon1{width: 200px;padding: 10px 0px;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .z .p1{width: 100%;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .v{width: 100%;height: 200px;}
+
+
+	.nav .nav_bar{display: block;}
+	.nav .nav_menu .nevigation_ul{display: none;position: absolute;top: 100%;left: 0%;width: 50%;height: auto;background: black;}
+	.nav .nav_menu .nevigation_ul .menus{ display: block;padding: 20px 0px;margin-top: 3px; color: black;}
+	.nav .nav_menu .nevigation_ul.hide{display: block;animation: xyz 0.5s;}
+	@keyframes xyz{
+		from{left: -100%;}
+		to{left: 0%;}
+	}
+	.nav .nav_menu .nevigation_ul .a1{width:60px;}
+	.nav .nav_menu .nevigation_ul .a2{width:130px;}
+	.nav .nav_menu .nevigation_ul .a3{width:150px;}
+	.nav .nav_menu .nevigation_ul .a4{width:70px;}
+	.slider_text h3{font-size: 18px;letter-spacing: 3px;margin-top: 10px;}
+	.slider_text p{font-size: 11px;letter-spacing: 3px;margin-top: 10px;margin-bottom: 10px;}
+	.slider_text button{padding: 6px 10px;letter-spacing: 1px;font-size: 12px;}
+	.content_first{padding: 20px 10px;flex-wrap: wrap;}
+	.content_first .first{width: 100%; margin: 20px;height: 250px;}
+	.content_first .first::after{height: 175px;}
+	.content_first .first h3{padding-top: 90px;font-size: 16px;}
+	.content_first .first p{padding-top: 10px;font-size: 12px;padding-right: 40px;}
+	.content_first .first:hover p{padding-right: 20px;}
+	.counters{flex-wrap: wrap;}
+	.counters .counters_part{width: 100%;}
+	.counters .counters_part .count{margin-top: 20px;margin-bottom: 0px;margin: auto;}
+	.counters .counters_part .count .num_count{flex-wrap: wrap;}
+	.counters .counters_part .count .num_count .h1{width: 50%;margin: auto;}
+	.counters .counters_part .count .count_text{padding: 10px 0px 0px 0px;}
+	.trending{flex-wrap: wrap;padding: 20px 10px;}
+	.trending .sale1{width: 100%;}
+	.trending .sale2{width: 100%;margin-top: 20px;}
+	.trending .sale2 .t_sale{height: 250px;}
+	.trending .sale1{height: 400px;}
+	.trending h3{padding-right: 50px;}
+	.trending p{padding-right: 30px;}
+	.offer{flex-wrap: wrap;padding:0px 30px ;}
+	.offer .offer1{width: 100%;margin-top: 20px;}
+	.offer .offer1{height: 250px;}
+	.offer .offer1 h4{font-size: 25px;letter-spacing: 5px;}
+	.heding_text{font-size: 25px;}
+	.button_content{padding: 0px 50px; flex-wrap: wrap;}
+	.button_content .button_text{width: 100%;}
+	.button_content .button_text .vh{top: 0%;}
+	.main_content{padding: 0px 20px;}
+	.main_content{padding: 0px 50px;transition: 0.5s;}
+	.main_content .box{grid-template-columns: 1fr;}
+	.main_content .box .x{margin:20px 10px;}
+	.attachment{height: 250px;}
+	.attachment h6{font-size: 16px;}
+	.attachment a{padding: 10px 14px;}
+	.free .shipping .free_shipping{width: 100%;margin-top: 10px;}
+	.free{padding: 10px 10px;}
+	.footer .footer_end{flex-wrap: wrap;}
+	.footer{padding: 10px 20px;padding-top: 50px;}
+	.footer .footer_end .last_part_x{width: 100%;margin: 10px 0px;}
+	.footer .footer_end .last_part_y{width: 100%;margin: 10px 0px;}
+	.footer .footer_end .foot_last{width: 100%;margin: 10px 0px;}
+	.footer .footer_end .foo_last{width: 100%;margin: 10px 0px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 40px;}
+	.footer_text{flex-wrap: wrap;}
+	.footer_text .footer_search{width: 100%;margin: 10px 0px;}
+	.footer_text .footer_search h3{font-size: 16px;}
+
+}
+@media(min-width: 500px)
+{
+	.header .singin{width: 50%;border-right: 1px solid grey;border-left: 1px solid grey;}
+	.sing_in{left: 3%;width: 470px;}
+	.sing_up{left: 1.4%;width: 470px;}
+	.box_icon .abc{margin: 0px 5px;}
+	.main .img{padding: 0px 20px;padding-bottom: 50px;height:450px;}
+	.main .form p{letter-spacing: 1px;font-size: 14px;}
+	.main .form .x{margin-top: 40px;}
+	.main .form .sumbit{padding: 10px 40px 10px;}
+	.header2 .search{width:100%;}
+	.header2 .search input{width: 80%;}
+	.header2 .logo{width:50%; font-size: 38px;}
+	.header2 .icon{width:50%;}
+	.header2 .icon .share{font-size: 18px;}
+	.header2 .icon .share{width: 40%;}
+	.header2 .icon .last{width: 60%;}
+	.header2 .icon .last .abc{margin:0px  2px;}
+	.slider_text h3{font-size: 20px;letter-spacing: 6px;margin-top: 1em;}
+	.slider_text p{font-size: 13px;letter-spacing: 6px;margin-top: 1.5em;margin-bottom: 2em;}
+	.slider_text button{padding: 8px 14px;letter-spacing: 2px;}
+	.content_first .first h3{padding-top: 70px;font-size: 25px;}
+	.content_first .first p{padding-top: 10px;font-size: 20px;padding-right: 90px;}		
+	.content_first .first:hover p{padding-right: 70px;}
+	.counters .counters_part .count{margin-top: 50px;margin-bottom: 20px;margin-left:0px;}
+	.counters .counters_part .count .num_count{flex-wrap: nowrap;}
+	.counters .counters_part .count .num_count .h1{width: 100%;margin: none;}
+	.counters .counters_part .count .count_text{padding: 40px 0px 0px 30px;}
+	.trending{padding: 20px 30px;}
+	.offer{flex-wrap: wrap;padding:0px 30px;}
+	.offer .offer1 h4{font-size: 32px;letter-spacing: 10px;}
+	.main_content{padding: 0px 10px;transition: 0.5s;}
+	.main_content .box{grid-template-columns: 1fr 1fr;}
+	.main_content .box .x{margin:20px 10px;}
+	.attachment{height: 320px;}
+	.attachment h6{font-size: 22px;}
+	.attachment a{padding: 10px 20px;}
+	.free{padding: 30px 50px;}
+	.footer .footer_end{flex-wrap: wrap;}
+	.footer{padding: 10px 20px;padding-top: 50px;}
+	.footer .footer_end .last_part_x{width: 100%;margin: 0px 0px;}
+	.footer .footer_end .last_part_y{width: 50%;margin: 20px 0px;}
+	.footer .footer_end .foot_last{width: 50%;margin: 20px 0px;}
+	.footer .footer_end .foo_last{width: 50%;margin: 0px 0px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 20px;}
+	
+
+}
+@media(min-width:700px)
+{
+	.main .img{height:auto;}
+	.sing_in{left: 10%;width: 600px;}
+	.sing_up{left: 10%;width: 600px;}
+	.header2 .search{width:100%;}
+	.header2 .search input{width: 80%;}
+	.header2 .logo{width:50%; font-size: 48px;}
+	.header2 .icon{width:50%;}
+	.header2 .icon .share{font-size: 22px;}
+	.header2 .icon .last .abc{margin:0px  5px;}
+	.nav{position: unset;display: flex; align-items: center;justify-content: center;}
+	
+
+	.nav .nav_bar{display: none;}	
+	.nav .nav_menu  .nevigation_ul{display: block;position: unset;width: 100%;height: 70px;
+		text-align: center;padding-top: 20px;}
+    .nav .nav_menu .nevigation_ul .menus{display: inline;padding: 26px 0px;margin-top: 0px;margin: 0px 3px;}
+	.nav .nav_menu .nevigation_ul .hasc{font-size: 15px;letter-spacing: 1px;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon{position:absolute;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon1{width: 450px;display: flex;flex-wrap: nowrap;}
+	.nav .nav_menu .nevigation_ul .menus .Short{position: absolute;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .z .p1{width: 50%;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon .v{width: 50%;height: auto;}
+	.slider_text h3{font-size: 30px;letter-spacing: 12px;}
+	.slider_text p{font-size: 16px;letter-spacing: 12px;}
+	.slider_text button{padding: 10px 18px;letter-spacing: 3px;}
+	.content_first{padding: 70px 100px;}
+	.content_first .first{height: 300px;}
+	.content_first .first::after{height: 200px;}
+	.content_first .first h3{padding-top: 100px;}
+	.content_first .first p{padding-top: 20px;}	
+	.counters .counters_part .count{margin-top: 10px;margin-bottom: 0px;}
+	.counters{flex-wrap: nowrap;}
+	.counters .counters_part{width: 50%;}
+	.trending{padding: 20px 0px;}
+	.trending{flex-wrap: nowrap;}
+	.trending .sale1{width: 43%;height: auto;}
+	.trending .sale2{width: 57%;margin-top: 0px;}
+	.trending .sale2 .t_sale{height:290px;}
+	.offer{flex-wrap: nowrap;padding:0px 0px ;}
+	.offer .offer1{width: 50%;margin-top: 0px;height: 330px	;}
+	.heding_text{font-size: 25px;}
+	.button_content{padding: 0px 20px;}
+	.button_content .button_text{width: 50%;}
+	.main_content .box{grid-template-columns: 1fr 1fr 1fr;}
+	.main_content{padding: 0px 20px;transition: 0.5s;}
+	.main_content .box .x .a3 h3{font-size: 13px;}
+	.main_content .box .x{margin:20px 10px;}
+	.attachment{height: 380px;}
+	.attachment h6{font-size: 36px;}
+	.free .shipping .free_shipping{width: 50%;margin: 10px 0px;}
+	.free{padding: 50px 30px;}
+	.footer{padding: 0px 80px;padding-top: 50px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 40px;}
+	.button_content{padding: 0px 30px;}
+
+
+@media(min-width:900px)
+{
+	.header .singin{width: 25%;}
+	.sing_in{left: 20%;}
+	.sing_up{left: 20%;}
+	.header2 .search{width:33.33%;}
+	.header2 .search input{width: 70%;}
+	.header2 .logo{width:33.33%;}
+	.header2 .icon{width:33.33%;}	
+	.nav .btn .butadd{width: 80%;}
+	.nav .nav_menu .nevigation_ul .menus{margin: 0px 6px;}
+	.nav .nav_menu .nevigation_ul .hasc{font-size: 18px;letter-spacing: 2px;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon1{width: 550px;}
+	.slider_text h3{font-size: 35px;}
+	.slider_text p{font-size: 16px;}
+	.slider_text button{padding: 12px 20px;}
+	.content_first{padding: 70px 20px;flex-wrap: nowrap;}
+	.content_first .first{width: 50%; margin: 0px 0xp;}
+	.counters .counters_part .count{margin-top: 50px;}
+	.trending{padding: 20px 30px;}
+	.button_content{padding: 0px 10px; flex-wrap: nowrap;}
+	.button_content .button_text{width: 25%;}
+	.button_content .button_text .vh{top: 77%;}
+	.main_content .box{grid-template-columns: 1fr 1fr 1fr 1fr;}
+	.main_content{padding: 0px 0px;transition: 0.5s;}
+	.main_content .box .x .a3 h3{font-size: 14px;}
+	.main_content .box .x{margin:20px 15px;}
+	.attachment h6{font-size: 43px;}
+	.free{padding: 70px 30px;}
+	.footer{padding: 0px 10px;padding-top: 50px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 0px;}
+
+
+	.footer .footer_end{flex-wrap: nowrap;}
+	.footer .footer_end .last_part_x{width: 25%;}
+	.footer .footer_end .last_part_y{width: 25%;margin: 0px 10px;}
+	.footer .footer_end .foot_last{width: 30%;margin: 0px 10px;}
+	.footer .footer_end .foo_last{width: 20%;}
+	.footer_text .footer_search h3{font-size: 24px;}
+	.footer_text{flex-wrap: nowrap;}
+	.footer_text .footer_search{width: 50%;margin: 0px 0px;}
+}
+
+@media(min-width: 1200px)
+{
+	.header .blank1{width: 10%;}
+	.header .singin{width: 20%;}
+	.sing_in{left: 27.5%;}.footer{padding: 0px 30px;padding-top: 50px;}
+	.sing_up{left: 27.5%;}
+	.nav .nav_menu .nevigation_ul .menus{margin: 0px 20px;}
+	.nav .btn .butadd{width: 70%;}
+	.nav .nav_menu .nevigation_ul .menus .dropdwon1{width: 600px;padding: 20px 30px;}
+	.slider_text h3{font-size: 40px;}
+	.slider_text p{font-size: 19.2px;}
+	.slider_text button{padding: 12px 20px;}
+	.content_first{padding: 70px 100px;}
+	.counters .counters_part .count{margin-top: 100px;margin-bottom: 50px;}
+	.trending{padding: 20px 100px;}
+	.button_content{padding: 0px 80px;}
+	.main_content{padding: 0px 80px;}
+	.main_content .box .x .a3 h3{font-size: 16px;}
+	.attachment h6{font-size: 48px;}
+	.free .shipping .free_shipping{width: 25%;}
+	.free{padding: 80px 30px;}
+	.footer{padding: 0px 30px;padding-top: 50px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 10px;}
+}
+@media(min-width: 1300px)
+{
+	.main_content{padding: 0px 100px; margin: 0px 0px;}	
+	.button_content{padding: 0px 100px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 20px;}
+	.footer{padding: 0px 80px;padding-top: 50px;}
+	.footer .footer_end .foo_last .f_img{padding: 0px 20px;}
+}

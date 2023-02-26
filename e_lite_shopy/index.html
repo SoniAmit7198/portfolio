@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E lite shopy</title>
+	<link rel="stylesheet" type="text/css" href="css/e_lite_shopy_css.css">
+	<link rel="stylesheet" type="text/css" href="css/e_lite_shopy_media_query.css">
+	<link rel="icon" type="text/css" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpt65LjLWj5mYqcAyCifG7A7tzg3Ji26WSUtEh-SoGWkvixlVwes38-o43oGet1-s9_n4&usqp=CAU">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body onscroll="counter()">
+	<div class="header">
+		<div class="blank1"></div>
+		<div class="singin"><button class="a"><i class="fa fa-unlock-alt p"></i>&nbsp;&nbsp;&nbsp; Sign In</button></div>
+		<div class="singin"><button class="b"><i class="fa fa-edit p"></i>&nbsp;&nbsp;&nbsp; Sign Up</button></div>
+		<div class="singin"><i class="fa fa-phone p"></i>&nbsp;&nbsp;&nbsp; Call : 01234567898</div>
+		<div class="singin"><button><i class="fa fa-envelope p"></i>&nbsp;&nbsp;&nbsp; info@example.com</button></div>
+		<div class="blank1"></div>
+
+		<div class="back_side"></div>
+		<div class="sing_in">
+			<p class="tuch">
+				<button class="button" id="button">x</button>
+			</p>
+			<div class="main">
+				<div class="submain">
+					<div class="form">
+						<h3>SIGN IN <span>NOW</span></h3>
+						<form>
+							<div class="x">
+								<input type="text" name="" placeholder="" required="">
+								<span>Name</span>
+							 </div>
+							<div class="x">
+								<input type="email" name="" placeholder="" required="">
+								<span>Email</span>
+							</div>
+							<input type="submit" name="" value="SIGN IN" class="sumbit">
+						</form>
+						<div class="box_icon">
+							<a href="" class="abc">
+								<div class="front x1"><i class="fa-brands fa-facebook-f"></i></div>
+								<div class="back_x"><i class="fa-brands fa-facebook-f"></i></div>
+							</a>
+							<a href="" class="abc">
+								<div class="front x2"><i class="fa-brands fa-twitter"></i></div>
+								<div class="back_x"><i class="fa-brands fa-twitter"></i></div>
+							</a>
+							<a href="" class="abc">
+								<div class="front x3"><i class="fa-brands fa-instagram"></i></div>
+								<div class="back_x"><i class="fa-brands fa-instagram"></i></div>
+							</a>
+							<a href="" class="abc">
+								<div class="front x4"><i class="fa-brands fa-linkedin-in"></i></div>
+								<div class="back_x"><i class="fa-brands fa-linkedin-in"></i></div>
+							</a>
+						</div>
+						<p>Don't have an account?</p>
+					</div>
+					<div class="img"><img src="images/login_pic.jpg" height="100%" width="100%"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="sing_up">
+			<p class="tuch">
+				<button class="button" id="button1">x</button>
+			</p>
+			<div class="main">
+				<div class="submain">
+					<div class="form">
+						<h3>SIGN UP <span>NOW</span></h3>
+						<form>
+							<div class="x">
+								<input type="text" name="" placeholder="" required="">
+								<span>Name</span>
+							 </div>
+							<div class="x">
+								<input type="email" name="" placeholder="" required="">
+								<span>Email</span>
+							</div>
+							<div class="x">
+								<input type="password" name="" placeholder="" required="">
+								<span>password</span>
+							 </div>
+							 <div class="x">
+								<input type="password" name="" placeholder="" required="">
+								<span>confirm password</span>
+							 </div>
+							<input type="submit" name="" value="SIGN IN" class="sumbit">
+						</form>
+						<div class="box_icon">
+							<a href="" class="abc">
+								<div class="front x1"><i class="fa-brands fa-instagram"></i></div>
+								<div class="back_x"><i class="fa-brands fa-instagram"></i></div>
+							</a>
+							<a href="" class="abc">
+								<div class="front x2"><i class="fa-brands fa-twitter"></i></div>
+								<div class="back_x"><i class="fa-brands fa-twitter"></i></div>
+							</a>
+							<a href="" class="abc">
+								<div class="front x3"><i class="fa-brands fa-instagram"></i></div>
+								<div class="back_x"><i class="fa-brands fa-instagram"></i></div>
+							</a>
+							<a href="" class="abc">
+								<div class="front x4"><i class="fa-brands fa-linkedin-in"></i></div>
+								<div class="back_x"><i class="fa-brands fa-linkedin-in"></i></div>
+							</a>
+						</div>
+						<p>By clicking register, I agree to your terms</p>
+					</div>
+					<div class="img in "><img src="images/login_pic.jpg" height="100%" width="100%"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header2">
+		<div class="search">
+			<input type="text" name="" placeholder="   Search here...">
+			<i class="fa fa-search"></i>
+		</div>
+
+		<div class="logo">
+			<span class="E">E</span>lite Shopp<span class="Y">y<i class="fa fa-shopping-bag"></i></span>
+		</div>
+
+		<div class="icon">
+			<div class="share">Share On :</div>
+			<div class="last">
+				<div class="box_icon">
+					<a href="" class="abc">
+						<div class="front x1"><i class="fa-brands fa-facebook-f"></i></div>
+						<div class="back_x"><i class="fa-brands fa-facebook-f"></i></div>
+					</a>
+					<a href="" class="abc">
+						<div class="front x2"><i class="fa-brands fa-twitter"></i></div>
+						<div class="back_x"><i class="fa-brands fa-twitter"></i></div>
+					</a>
+					<a href="" class="abc">
+						<div class="front x3"><i class="fa-brands fa-instagram"></i></div>
+						<div class="back_x"><i class="fa-brands fa-instagram"></i></div>
+					</a>
+					<a href="" class="abc">
+						<div class="front x4"><i class="fa-brands fa-linkedin-in"></i></div>
+						<div class="back_x"><i class="fa-brands fa-linkedin-in"></i></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- nevigation sta -->
+
+
+	<div class="nav">
+		<button class="nav_bar" id="bar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		<div class="nav_menu">
+			<ul class="nevigation_ul" id="dp">
+				<li class="menus a1"><a href="" class="hasc">Home</a></li>
+				<li class="menus a1"><a href="" class="hasc">About</a></li>
+				<li class="menus a2 x" id="main">
+					<a class="hasc">Men's wear</a>
+					<ul class="dropdwon" id="dropdwon">
+						<div class="dropdwon1">
+							<div class="part1 v"><img src="images/dropdwon_img1.jpg " height="100%" width="100%" ></div>
+							<div class="part1 z">
+								<div class="p1">
+									<li><a href="">Clothing</a></li>
+									<li><a href="">Wallets</a></li>
+									<li><a href="">Footwear</a></li>
+									<li><a href="">Watches</a></li>
+									<li><a href="">Accessories</a></li>
+									<li><a href="">Bags</a></li>
+									<li><a href="">Caps & Hats</a></li>
+								</div>
+								<div class="p1">
+									<li><a href="">Jewellery</a></li>
+									<li><a href="">Sunglasses</a></li>
+									<li><a href="">Perfumes</a></li>
+									<li><a href="">Beauty</a></li>
+									<li><a href="">Shirts</a></li>
+									<li><a href="">Sunglasses</a></li>
+									<li><a href="">Swimwear</a></li>
+								</div>
+							</div>
+						</div>	
+					</ul>
+				</li>
+				<li class="menus x a3" id="main1">
+					<a class="hasc">Women's ware</a>
+						<ul class="dropdwon" id="dropdwon1">
+							<div class="dropdwon1">
+								<div class="part1 z">
+									<div class="p1">
+										<li><a href="">Clothing</a></li>
+										<li><a href="">Wallets</a></li>
+										<li><a href="">Footwear</a></li>
+										<li><a href="">Watches</a></li>
+										<li><a href="">Accessories</a></li>
+										<li><a href="">Bags</a></li>
+										<li><a href="">Caps & Hats</a></li>
+									</div>
+									<div class="p1">
+										<li><a href="">Jewellery</a></li>
+										<li><a href="">Sunglasses</a></li>
+										<li><a href="">Perfumes</a></li>
+										<li><a href="">Beauty</a></li>
+										<li><a href="">Shirts</a></li>
+										<li><a href="">Sunglasses</a></li>
+										<li><a href="">Swimwear</a></li>
+									</div>
+								</div>
+							 	<div class="part1 v"><img src="images/dropdwon_img2.jpg" height="100%" width="100%" ></div>
+							</div>	
+				   		</ul>
+					</li>
+				<li class="menus x a2" id="main2">
+					<a class="hasc">Short codes</a>
+					<ul class="Short" id="dropdwon2">
+						<li>WEB ICONS</li>
+						<li>TYPOGRAPHY</li>
+					</ul>
+				</li>
+				<li class="menus a4"><a href="" class="hasc">contact</a></li>
+			</ul>
+		</div>
+		<div class="btn">
+			<button class="butadd"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+		</div>
+	</div>
+
+	<!-- nevigation end -->
+
+	<div class="slider">
+		<div class="swiper mySwiper">
+	      <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="images/banner1.jpg" height="110%" width="100%" >
+		        	<div class="slider_text">
+		        		<h3>THE BIGGEST <span>SALE</span></h3>
+		        		<p>Special for today</p>
+		        		<button><a href="">Shop Now</a></button>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide"><img src="images/banner2.jpg" height="110%" width="100%" >
+		        	<div class="slider_text">
+		        		<h3>THE BIGGEST <span>SALE</span></h3>
+		        		<p>Special for today</p>
+		        		<button><a href="">Shop Now</a></button>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide"><img src="images/banner3.jpg" height="110%" width="100%" >
+		        	<div class="slider_text">
+		        		<h3>THE BIGGEST <span>SALE</span></h3>
+		        		<p>Special for today</p>
+		        		<button><a href="">Shop Now</a></button>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide"><img src="images/banner4.jpg" height="110%" width="100%" >
+		    	   	<div class="slider_text">
+				   		<h3>THE BIGGEST <span>SALE</span></h3>
+			      		<p>Special for today</p>
+			       		<button><a href="">Shop Now</a></button>
+		       		</div>
+		       	</div>	
+			    <div class="swiper-slide"><img src="images/banner5.jpg" height="110%" width="100%" >
+		       		<div class="slider_text">
+		        		<h3>THE BIGGEST <span>SALE</span></h3>
+		        		<p>Special for today</p>
+		        		<button><a href="">Shop Now</a></button>
+		        	</div>
+		        </div>
+	      	</div>
+			      <div class="swiper-button-next"></div>
+			      <div class="swiper-button-prev"></div>
+			      <div class="swiper-pagination"></div>
+	    </div>
+	 </div>   
+
+	 <div class="content_first">
+	 	<div class="first con-first">
+	 		<h3><span>F</span>ALL AHEAD</h3>
+	 		<p>New Arrivals</p>
+	 	</div>
+	 	<div class="first con-second">
+	 		<h3><span>F</span>ALL AHEAD</h3>
+	 		<p>New Arrivals</p>
+	 	</div>
+	 </div>
+
+
+	 <div class="counters">
+	 	<div class="counters_part"><img src="images/counter_img.jpg" height="100%" width="100%"></div>
+	 	<div class="counters_part count_x">
+	 		<div class="count">
+	 			<div class="count_text">
+	 			<h3>SAVE UP TO <span>50%</span> IN THIS WEEK</h3>
+	 			<p>Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
+	 			</div>
+	 			<div class="num_count">
+	 				<div class="h1">
+	 					<i class="fa fa-user-o" aria-hidden="true"></i>
+	 					<h4>CUSTOMERS</h4>
+	 					<h5 id="demo">0</h5>
+	 				</div>
+	 				<div class="h1">
+	 					<i class="fa fa-calendar-o" aria-hidden="true"></i>
+	 					<h4>EVENTS</h4>
+	 					<h5 id="demo1">0</h5>	
+	 				</div>
+	 				<div class="h1">
+	 					<i class="fa fa-shield" aria-hidden="true"></i>
+	 					<h4>AWARDS</h4>
+	 					<h5 id="demo2">0</h5>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </div>
+
+	 <div class="heding_text">WHAT'S<span>TRENDING</span></div>
+
+	 <div class="trending">
+	 	<div class="sale1">
+	 		<h3><span>S</span>ALE</h3>
+	 		<p>Uoto 55%</p>
+	 	</div>
+	 	<div class="sale2">
+	 		<div class="t_sale">
+	 			<h3><span>S</span>ALE</h3>
+	 			<p>Upto 55%</p>
+	 		</div>
+	 		<div class="t_sale t2">
+	 			<h3><span>S</span>ALE</h3>
+	 			<p>Upto 65%</p>
+	 		</div>
+	 	</div>
+	 </div>
+
+	 <div class="offer">
+	 	<div class="offer1">
+	 		<h4>Flat <span>50%</span> offer</h4>
+	 		<div class="offer_extra effect"></div>
+	 		<div class="offer_extra effect1"></div>
+	 		<div class="effect_x"></div>
+	 	</div>
+	 	<div class="offer1 offer_ex">
+	 		<h4>Flat <span>50%</span> offer</h4>
+	 		<div class="offer_extra effect"></div>
+	 		<div class="offer_extra effect1"></div>
+	 		<div class="effect_x"></div>
+	 	</div>
+	 </div>
+
+	 <div class="heding_text">NEW<span>ARRIVALS</span></div>
+
+
+	 <div class="button_content">
+	 	<div class="button_text" id="man_but">MAN'S<i class="fa fa-caret-down vh h" aria-hidden="true"></i></div>
+	 	<div class="button_text" id="women_but">WOMAN'S<i class="fa fa-caret-down vh w" aria-hidden="true"></i></div>
+	 	<div class="button_text" id="bags_but">BAGS<i class="fa fa-caret-down vh r" aria-hidden="true"></i></div>
+	 	<div class="button_text" id="footwear_but">FOOTWEAR<i class="fa fa-caret-down vh o" aria-hidden="true"></i></div>
+	 </div>
+
+	 <!-- main content -->
+	<div class="new_arrivals">
+
+		<!-- footware start -->
+		 <div class="main_content" id="footwear">
+			<div class="box">
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s1.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/s1.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s2.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/s2.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s3.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/s3.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s4.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/s4.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s5.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/s5.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s6.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/s6.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s7.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/s7.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/s8.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/s8.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footwarte end -->
+
+		<!-- bags start -->
+
+		 <div class="main_content" id="bags">
+			<div class="box">
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b1.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/b1.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b2.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/b2.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b3.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/b3.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b4.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/b4.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b5.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/b5.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b6.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/b6.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b7.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/b7.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/b8.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/b8.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- bags end -->
+
+		<!-- woman's ware start -->
+
+		 <div class="main_content" id="women_wear">
+			<div class="box">
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w1.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/w1.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w2.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/w2.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w3.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/w3.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w4.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/w4.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w5.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/w5.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w6.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/w6.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w7.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/w7.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/w8.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/w8.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- women's ware end -->
+
+		<!-- men's ware start -->
+
+		 <div class="main_content" id="man_wear">
+		 	<div class="box">
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m1.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/m1.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m2.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/m2.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m3.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/m3.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m4.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/m4.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m5.jpg" height="100%" width="100%">
+
+						</div>
+						<div class="back">
+							<img src="images/m5.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Formal Blue Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div> 
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m7.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/m7.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Gabi Full Sleeve Sweatshirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m6.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/m6.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Dark Blue Track Pants</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+				<div class="x">
+					<div class="a1"><p class="new">New</p>
+						<div class="front">
+							<img src="images/m8.jpg" height="100%" width="100%">				
+						</div>
+						<div class="back">
+							<img src="images/m8.jpg" height="100%" width="100%">
+						</div>
+						<div class="a2"><p class="quick">Quick View</p></div>
+					</div>
+					<div class="a3">
+						<h3>Round Neck Black T-Shirt</h3>
+						<p>$45.99<span class="b">$69.71</span></p>
+						<button>ADD TO CARD</button>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!-- men's ware end-->
+	</div>
+
+	<!-- content end -->
+
+	<div class="attachment">
+		<h6>We Offer Flat<span>40%</span>Discount</h6>
+		<a href="">Shop Now</a>
+	</div>
+
+	<div class="free">
+		<div class="shipping">
+			<div class="free_shipping">
+				<div class="d1"><i class="fa fa-truck" aria-hidden="true"></i></div>
+				<div class="d2"><h3>FREE SHIPPING</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur</p></div>
+				
+			</div>
+			<div class="free_shipping">
+				<div class="d1"><i class="fa fa-headphones" aria-hidden="true"></i></div>
+				<div class="d2">
+				<h3>24/7 SUPPORT</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur</p></div>
+			</div>
+			<div class="free_shipping">
+				<div class="d1"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+				<div class="d2">
+				<h3>MONEY BACK GUARANTEE</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur</p></div>
+			</div>
+			<div class="free_shipping">
+				<div class="d1"><i class="fa fa-gift" aria-hidden="true"></i></div>
+				<div class="d2">
+				<h3>FREE GIFT COUPONS</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur</p></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footer_end">
+			<div class="last_part_x">
+				<h2 class="e_lite"><a href="index.html"><span>E</span>lite Shoppy </a></h2>
+				<p class="pera">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non num quam eius modi tempora.</p>
+				<div class="shoppy">
+					<div class="box_icon">
+					<a href="" class="abc">
+						<div class="front x1"><i class="fa-brands fa-facebook-f"></i></div>
+						<div class="back_x"><i class="fa-brands fa-facebook-f"></i></div>
+					</a>
+					<a href="" class="abc">
+						<div class="front x2"><i class="fa-brands fa-twitter"></i></div>
+						<div class="back_x"><i class="fa-brands fa-twitter"></i></div>
+					</a>
+					<a href="" class="abc">
+						<div class="front x3"><i class="fa-brands fa-instagram"></i></div>
+						<div class="back_x"><i class="fa-brands fa-instagram"></i></div>
+					</a>
+					<a href="" class="abc">
+						<div class="front x4"><i class="fa-brands fa-linkedin-in"></i></div>
+						<div class="back_x"><i class="fa-brands fa-linkedin-in"></i></div>
+					</a>
+				</div>
+				</div>
+			</div>
+
+			<div class="last_part_y">
+				<h4>Our <span>Information</span></h4>
+				<ul class="f_part_ul">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">man's Wear</a></li>
+					<li><a href="index.html">Women's Wear</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Short Codes</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="foot_last">
+				<h4>STORE<span>INFORMATION</span></h4>
+				<div class="store_info">
+					<div class="phone"><i class="fa fa-phone" aria-hidden="true"></i></div>
+					<div class="number">
+						<h6>Phone Number</h6>
+						<p>+1 234 567 8901</p>
+					</div>
+
+				</div>
+				<div class="store_info">
+					<div class="phone"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+					<div class="number">
+						<h6>Email Address</h6>
+						<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+					</div>
+
+				</div>
+				<div class="store_info">
+					<div class="phone"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="number">
+						<h6>Location</h6>
+						<p>Broome St, NY 10002,California, USA.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="foo_last">
+				<h4>FLICKR <span>POSTS</span></h4>
+				<ul class="f_img">
+					<li><a href=""><img src="images/t1.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t2.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t3.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t4.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t1.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t2.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t3.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t2.jpg" height="100%" width="100%"></a></li>
+					<li><a href=""><img src="images/t4.jpg" height="100%" width="100%"></a></li>	
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer_text">
+			<div class="footer_search"><h3>SIGN UP FOR NEWSLETTER !</h3></div>
+			<div class="footer_search">
+				<span><input type="text" name="" placeholder="Enter your email..."><button><a href="">sumbit</a></button></span>	
+			</div>
+		</div>
+		<div class="reserved">For practice Design by <span>AMIT</span></div>
+
+	</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script type="text/javascript">
+	
+     
+        $(".a").click(function(){
+        	$(".sing_in").show();
+        	$(".back_side").show();
+        	$(".sing_in").css("display", "block")
+        })
+		$("#button").click(function(){
+			$(".sing_in").hide();
+			$(".back_side").hide();
+		})
+		$(".back_side").click(function(){
+			$(".sing_in").hide();
+			$(".back_side").hide();
+			$(".sing_up").hide();
+
+		})
+
+		$(".b").click(function(){
+        	$(".sing_up").show();
+        	$(".back_side").show();
+        	$(".sing_up").css("display", "block")
+        })
+        $("#button1").click(function(){
+			$(".sing_up").hide();
+			$(".back_side").hide();
+		})
+
+		$(".nav_bar").click(function(){
+			$(".nevigation").toggle(".hide")
+		})
+
+
+		bar = document.querySelector("#bar")
+		dp = document.querySelector("#dp")
+		 bar.addEventListener("click",xyz);
+
+		function xyz()
+		{
+			x = dp.classList.toggle('hide');
+			console.log(x)
+		}
+
+		$("#main").click(function(){
+			$("#dropdwon").toggle(".extra");
+		})
+		$("#main1").click(function(){
+			$("#dropdwon1").toggle(".extra1")
+		})
+		$("#main2").click(function(){
+			$("#dropdwon2").toggle(".extra2")
+		})
+</script>
+
+	<!-- swiper js -->
+	<script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!-- swiper js end -->
+
+    <!-- counter Start -->
+
+<script src="js/counto.js"></script>
+
+    <script type="text/javascript">
+    	
+    	function counter(){
+    		if(document.documentElement.scrollTop > 1000)
+    		{
+    			$(function(){
+  					$('#demo').counto(653,1800);
+				});
+				$(function(){
+  					$('#demo1').counto(823,1800);
+				});
+				$(function(){
+  					$('#demo2').counto(45,1800);
+				});
+
+    		}
+    		else
+    		{
+				$(function(){
+  					$('#demo').counto(0,100);
+				});
+				$(function(){
+  					$('#demo1').counto(0, 100);
+				});
+				$(function(){
+  					$('#demo2').counto(0, 100);
+				});    			
+    		}
+
+
+    	}
+
+    </script>
+    <!-- counter end -->
+
+
+    <!-- content start -->
+    	<script type="text/javascript">
+
+			$("#man_but").click(function(){
+				$("#man_wear").css("display" ,"block")
+				$("#women_wear").css("display","none")
+				$("#bags").css("display" ,"none")
+			    $("#footwear").css("display" ,"none")
+			    $("#man_but").css("background" ,"#fc636b")
+			    $("#women_but").css("background" ,"none")
+			    $("#bags_but").css("background" ,"none")
+			    $("#footwear_but").css("background" ,"none")
+			    $(".h").css("display","block")
+			    $(".w").css("display","none")
+			    $(".r").css("display","none")
+			    $(".o").css("display","none")
+
+			})
+			$("#women_but").click(function(){
+				$("#man_wear").css("display" ,"none")
+				$("#women_wear").css("display","block")
+				$("#bags").css("display" ,"none")
+			    $("#footwear").css("display" ,"none")
+			    $("#man_but").css("background" ,"none")
+			    $("#women_but").css("background" ,"#fc636b")
+			    $("#bags_but").css("background" ,"none")
+			    $("#footwear_but").css("background" ,"none")
+			    $(".vh").css("display","none")
+			    $(".w").css("display","block")
+			})
+			$("#bags_but").click(function(){
+				$("#man_wear").css("display" ,"none")
+				$("#women_wear").css("display","none")
+				$("#bags").css("display" ,"block")
+				$("#footwear").css("display" ,"none")
+				$("#man_but").css("background" ,"none")
+			    $("#women_but").css("background" ,"none")
+			    $("#bags_but").css("background" ,"#fc636b")
+			    $("#footwear_but").css("background" ,"none")
+			    $(".vh").css("display","none")
+			    $(".r").css("display","block")
+
+			})
+			$("#footwear_but").click(function(){
+				$("#man_wear").css("display" ,"none")
+				$("#women_wear").css("display","none")
+				$("#bags").css("display" ,"none")
+				$("#footwear").css("display" ,"block")
+				$("#man_but").css("background" ,"none")
+			    $("#women_but").css("background" ,"none")
+			    $("#bags_but").css("background" ,"none")
+			    $("#footwear_but").css("background" ,"#fc636b")
+			    $(".vh").css("display","none")
+			    $(".o").css("display","block")
+			 
+			  
+			})
+
+    	</script>
+    <!-- content end -->
+
+</body>
+</html>
