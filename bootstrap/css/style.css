@@ -1,0 +1,68 @@
+.butn{
+    height: 50px;
+    width: 200px;
+    border-radius:25px;
+    border: 2px solid;
+    background-color: #a8d741;
+    transition: .5s;
+}
+
+.butn:hover{
+    
+    transform: rotate(7deg);
+    background-color: #f9f9f9;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.fa-chevron-right{
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+}
+
+.con{
+   background-color: #a8d741;
+}
+.bt{
+    background-color: black;
+    color: white;
+}
+.bt:hover{
+    color: black;
+}
+.icon11{
+    color: #a8d741;
+    font-size: 80px;
+}
+.item-wrapper{
+    height: 400px;
+}
+.item-img{
+    height:225px ;
+    object-fit: contain;
+}
+
+.hovv{
+    transition: 1s;
+}
+
+.hovv:hover{
+    transform: rotate(2deg);
+}
+
+.btt{
+    width: 140px;
+}
+
+.item-wrapper1{
+    height: 450px;
+}
+.item-img1{
+    height:260px ;
+    object-fit: contain;
+}

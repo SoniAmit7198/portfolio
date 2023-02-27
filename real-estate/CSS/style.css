@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+
+:root {
+    --color-primary: #ff5a5f;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-body-font-family: 'Roboto Mono', monospace;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--bs-body-font-family);
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-white);
+}
+
+
+.bg {
+    
+    width: 100%;
+    background: url(https://findhousenextjs.vercel.app/_next/static/media/1.92b21fdd.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3.5fr;
+    color: white;
+    font-weight: 500;
+
+
+}
+
+.bg::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1d293e;
+    opacity: 0.6;
+    width: 100%;
+}
+
+.bg .navv {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    padding: 20px;
+    z-index: 1;
+    color: var(--bs-white);
+}
+
+.bg .navv .logo a .logo2 {
+    display: none;
+}
+
+
+.bg .navv .logo {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+
+}
+
+.bg .navv .logo a {
+    position: relative;
+}
+
+
+.bg .navv .logo img {
+    position: absolute;
+    top: -13px;
+    left: -50px;
+}
+
+.bg .navv .nav {
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    z-index: 2;
+}
+
+
+
+.bg .navv .nav .lin {
+    padding: 32px 15px;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.bg .navv .nav .x .li {
+    position: relative;
+}
+
+.bg .navv .nav .x .li .kk {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: var(--bs-white);
+    padding: 0 15px;
+    display: none;
+
+}
+
+.bg .navv .nav .x .li {
+    position: relative;
+}
+
+.bg .navv .nav .x .li .fa-sort-up {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    color: var(--bs-white);
+    font-size: 35px;
+}
+
+
+.bg .navv .nav .x .li .kk .k {
+    background-color: var(--bs-white);
+    padding: 20px 150px 20px 12px;
+    border: 2;
+    color: var(--bs-black);
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+.bg .navv .nav .x .li .kk .k a {
+    color: var(--bs-black);
+}
+
+.bg .navv .nav .x .li .kk .k:hover p,
+.bg .navv .nav .x .li .kk .k:hover a {
+    transform: translateX(14px);
+    color: var(--color-primary);
+}
+
+.bg .navv .nav .x .li:hover .kk {
+    display: block;
+}
+
+
+
+
+.bg .navv .butn .fa-bars {
+    display: none;
+}
+
+.bg .navv .butn {
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    z-index: 1;
+}
+
+.bg .navv .butn:hover button {
+    border: 2px solid var(--color-primary);
+}
+
+
+.button {
+    height: 50px;
+    width: 175px;
+    border-radius: 50px;
+    background-color: var(--bs-white);
+    color: var(--color-primary);
+    border: none;
+}
+
+.bg .txt {
+    z-index: 1;
+    color: var(--bs-white);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 130px;
+    
+}
+
+.bg .search {
+    z-index: 1;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+   
+}
+
+.bg .search .buy {
+    position: relative;
+}
+
+.bg .search .bu .buy .ss {
+    position: absolute;
+    top: 79%;
+    left: 40%;
+    font-size: 30px;
+    color: var(--color-primary);
+    display: none;
+}
+
+.bg .search .bu .buy {
+    height: 55px;
+    width: 110px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.bg .search .buy:hover .ss {
+    display: block;
+}
+
+.bg .search .buy:hover {
+    background-color: var(--color-primary);
+    color: var(--bs-white);
+}
+
+.search .bu .bt {
+    position: relative;
+}
+
+.search .m1 {
+    background-color: hsla(0, 0%, 100%, .15);
+     margin: 30px auto;
+    border-radius: 10px;
+    padding: 15px 15px;
+    width: 80%;
+}
+
+
+.search .m1 .m3 {
+
+    background-color: var(--bs-white);
+    border-radius: 10px;
+    padding: 20px 0;
+   
+}
+
+
+.search .m1 .m3 .m4 {
+    display: inline-block;
+    color: #000;
+
+}
+.search .m1 .m3 .m4 .txt{
+    position: relative; 
+}
+ .search .m1 .m3 .m4 .enter {
+    position: relative;
+ } 
+
+.search .m1 .m3 .m4 .enter .key {
+    padding: 14px 35px 14px 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    outline: none;
+}
+
+.search .m1 .m3 .m4 .enter .key1 {
+    padding: 14px 0px 14px 5px;
+}
+
+.search .m1 .m3 .m4 .enter .key2 {
+    padding: 14px 25px 14px 5px;
+}
+
+.search .m1 .m3 .m4 .enter .key3 {
+    padding: 14px 0px 14px 5px;
+}
+
+.search .m1 .m3 .m4 .enter .t1 {
+    position: absolute;
+    top: 16px;
+    left: 78%;
+    font-size: 12px;
+}
+
+.search .m1 .m3 .m4 .key4 {
+    padding: 14px 60px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--bs-white);
+    background-color: var(--color-primary);
+    border: none;
+    transition: .3s;
+    border: 2px solid var(--bs-white);
+}
+
+.search .m1 .m3 .m4 .key4:hover {
+    background-color: var(--bs-white);
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}

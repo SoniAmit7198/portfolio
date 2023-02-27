@@ -1,0 +1,728 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+* {
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header start */
+
+.header {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+}
+
+.header .text {
+        height: 84px;
+        width: 50%;
+}
+
+.header .text p {
+        color: gray;
+        text-align: center;
+        line-height: 84px;
+}
+
+.header .icons {
+        height: 84px;
+        width: 50%;
+        text-align: end;
+        line-height: 84px;
+        padding: 0 150px 0 0;
+}
+
+.header .icons ul li {
+        list-style: none;
+        display: inline;
+        margin: 10px;
+}
+
+.header .icons ul li a {
+        color: gray;
+}
+
+.header .icons ul li a:hover {
+        color: white;
+}
+
+/* header close */
+
+/* sub header start */
+
+
+.top_bar {
+        display: flex;
+        flex-wrap: wrap;
+
+
+}
+
+.top_bar .logo {
+        height: 90px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+}
+
+.top_bar .ico {
+        height: 90px;
+        width: 50%;
+        padding: 30px 50px;
+        /* background-color:rebeccapurple; */
+        display: flex;
+        justify-content: flex-end;
+        /* align-items: center; */ 
+}
+.top_bar .ico .icos{margin-right: 60px;}
+
+.top_bar .ico li {
+        display: inline;
+        margin-right: 20px;
+
+
+}
+
+.top_bar .ico .icos .dropdown {
+        position: relative;
+        padding: 6px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        transition: 3s;
+}
+
+.top_bar .ico .icos .dropdown .flag {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        padding-left: 7px;
+        transition: 3s;
+}
+
+.top_bar .ico .icos .dropdown:hover .flag {
+        display: block;
+}
+
+
+
+
+
+
+.bottom_bar {
+        /* height: 90px; */
+        display: flex;
+        height: 90px;
+        padding: 45px 0;
+
+        text-align: center;
+        /* align-items: center;
+        justify-content: center; */
+}
+
+.bottom_bar .sub1 {
+        width: 50%;
+        height: 90px;
+
+}
+
+.bottom_bar .sub2 {
+        height: 90px;
+        width: 50%;
+
+}
+
+.bottom_bar a {
+        color: black;
+}
+
+.bottom_bar .x {
+        display: inline;
+        padding: 23px 0;
+        padding-left: 35px;
+}
+
+.bottom_bar a:hover {
+        color: #0089F7;
+}
+
+/* dropdown */
+.drop {
+        position: relative;
+        transition: 1s;
+}
+
+.nav {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+
+        width: 150px;
+        background-color: white;
+
+
+        z-index: 1;
+        display: none;
+        transition: 3s;
+
+
+
+}
+
+
+.navd {
+        border-bottom: 1px solid gray;
+        padding: 13px 18px;
+
+}
+
+.nav .navd {
+        text-align: left;
+}
+
+.navd:hover {
+        background-color: rgba(0, 0, 0, 0.09);
+        color: black;
+}
+
+.navd a:hover {
+        color: black;
+}
+
+.drop:hover .nav {
+        display: block;
+}
+
+
+
+
+
+
+/* sub header end */
+/* img start */
+
+.img {
+        height: 700px;
+        position: relative;
+        object-fit: contain;
+}
+
+.img .anm {
+        height: 70px;
+        width: 70px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        line-height: 70px;
+        left: 96%;
+        top: 40%;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes example {
+        from {
+                color: rgba(255, 255, 255, .2);
+        }
+
+        to {
+                color: rgb(255, 255, 255);
+        }
+}
+
+/* img start */
+
+.im_card h1 {
+        padding-top: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+}
+
+.im_card .im_card1 {
+        margin-bottom: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 70px;
+}
+
+.im_card .im_card1 .card {
+        height: 170px;
+        width: 184px;
+        background-color: rgba(0, 0, 0, .1);
+        margin-left: 25px;
+        font-size: 25px;
+        border-radius: 30px;
+        margin-top: 10px;
+}
+
+.im_card .im_card1 .card .abc {
+        padding-top: 20px;
+}
+
+.im_card .im_card1 .card h6 {
+        margin-top: -20px;
+}
+
+.im_card .im_card1 .card:hover {
+        border: 5px solid #0089F7;
+        background-color: white;
+}
+
+/* img end */
+
+/* product start */
+.product {
+        padding: 50px;
+        /* background-color: #fd7e14; */
+      
+}
+.product .t {
+       
+        text-align: center;
+        padding-bottom: 20px;
+}
+
+.product .product_card {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+       
+}
+
+.product .product_card .p_card {
+        width: 25%;
+        margin: 0 30px;
+        
+
+       
+}
+
+.product .product_card .p_card .visible {
+        display: none;
+        transition: 0.7s;
+}
+
+
+
+.product .product_card .p_card .tx {
+        height: 70px;
+        width: 100%;
+        text-align: start;
+}
+
+.product .product_card .p_card .tx span {
+        color: #0089F7;
+        font-size: 20px;
+}
+.product .product_card .p_card .hidden {
+        display: block;
+        transition: 0.7s;
+}
+
+.product .product_card .p_card:hover .visible {
+        display: block;
+}
+
+.product .product_card .p_card:hover .hidden {
+        display: none;
+}
+
+.product .product_card .p_card .p__card {
+        height: 200px;
+        width: 100%;
+        position: relative;
+
+}
+
+.product .product_card .p_card .p__card span {
+        position: absolute;
+        top: 20px;
+        left: 6px;
+        padding: 4px;
+        background-color: #0089F7;
+        border-radius: 8px;
+        color: white;
+}
+
+
+
+
+/* product end */
+
+/* picture start */
+.picture {
+        padding: 20px;
+        text-align: center;
+        
+}
+
+.picture .imgs {
+        display: flex;
+        flex-wrap: wrap;       
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+       
+}
+
+.picture .imgs .pic1 {
+        height: 500px;
+        width: 40%;
+        margin-right: 20px;
+        border-radius: 12px;
+        background-image: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg1.webp);
+        background-size: 100% 100%;
+
+}
+
+.picture .imgs .pic2 {
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg2.webp);
+        background-size: 100% 100%;
+
+}
+
+.picture .imgs .pic3 {
+        width: 50%;
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-wrap-bg3.webp);   
+        background-size: 100% 100%; 
+}
+
+.picture .imgs .pic4 {
+        width: 30%;
+        background: url(https://wallpapercave.com/wp/wp1989836.jpg);
+        background-size: 100% 100%;
+}
+
+/* picture end */
+
+
+/* main start */
+.prod{padding: 0px 50px; margin-top: 15px;}
+
+h1 {
+        text-align: center;
+       }
+
+.product .pro{padding: 0 50px;}
+
+/* main end */
+
+/* browse button  */
+
+.hov {
+        text-align: center;
+}
+
+.button {
+        height: 40px;
+        width: 150px;
+        border-radius: 8px;
+        border: none;
+        position: relative;
+        cursor: pointer;
+        letter-spacing: 2px;
+        font-weight: bold;
+}
+
+.button::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        top: 0;
+        left: 0;
+        transition: 1s;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, .1);
+}
+
+.button:hover::after {
+        width: 100%;
+}
+
+/* browse button  */
+
+/* experiance */
+.conv {
+        margin-top: 60px;
+}
+
+.conv .text {
+        text-align: center;
+}
+
+.conv .ord {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        justify-content: space-around;
+}
+
+.conv .ord .order {
+        flex-direction: column;
+        text-align: center;
+}
+
+/* experiance */
+
+/* brow product */
+.colr {
+        background-color: #222540;
+        margin-top: 60px;
+}
+
+.colr .col {
+        width: 80%;
+        padding: 115px 0px;
+        background-color: #fd7e14;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.colr .col .box {
+        /* height: 500px; */
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        
+
+}
+
+.colr .col .box .contain {
+        height: 500px;
+        width: 50%;
+        padding: 50px 90px;
+
+}
+
+.colr .col .box .contain p {
+        padding-top: 50px;
+}
+
+.colr .col .box .contain h1 {
+        color: white;
+        padding-top: 20px;
+}
+
+.colr .col .box .contain p span {
+        border-bottom: 3px solid white;
+        margin-right: 50px;
+        color: white;
+}
+
+.colr .col .box .contain p .fa-solid {
+        padding: 10px;
+        border: 3px solid white;
+        border-radius: 50%;
+        color: white;
+}
+
+.colr .col .box .imag {
+        height: 500px;
+        width: 50%;
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-home-pic5.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+}
+
+.colr .col .box .contain p span:hover,
+.colr .col .box .contain p .fa-solid:hover {
+        color: rgba(255, 255, 255, .6);
+        border-color: rgba(255, 255, 255, .6);
+        cursor: pointer;
+}
+
+/* brow product */
+
+/* bg image */
+
+.bg_img {
+        height: 450px;
+        padding-top: 90px;
+        text-align: center;
+        background-attachment: fixed;
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg1.webp);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+}
+
+.bg_img p {
+        padding-top: 50px;
+}
+
+.bg_img p input {
+        height: 40px;
+        padding-right: 200px;
+}
+
+.bg_img p button {
+        background-color: #0089F7;
+        color: white;
+}
+
+/* bg image */
+
+/* customer */
+.cus h1 {
+        text-align: center;
+}
+
+.cus .cust {
+        padding: 80px 160px;
+        
+}
+
+.cus .cust .custo {
+        padding: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+}
+
+.cus .cust .custo img {
+        background-color: rgba(0, 0, 0, .1)
+}
+
+.cus .cust .custo img:hover {
+        background-color: rgba(0, 0, 0, .2);
+}
+
+.cus .cust .custom {
+        display: flex;     
+}
+
+.cus .cust .custom .tnt {
+        padding: 20px 65px;
+}
+
+.cus .cust .custom p {
+        padding-top: 20px;
+        color: gray;
+}
+
+/* sub footer */
+
+/* .sub_txt{height: 200px; width: 33.33%;}
+.sub_but{height: 200px; width: 33.33%;} */
+
+.sub_footer {
+        height: 200px;
+        background: url(https://beantown.website/html/be/html/content/be-store/images/bethemestore-section-bg2.webp);
+        background-color: rgb(218, 210, 210);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.sub_footer .sub_but .btn {
+        background-color: #0089F7;
+        color: white;
+}
+
+/* sub footer */
+
+/* footer */
+
+.footer {
+        color: white;
+}
+
+.footer .foo_ctn {
+        background-color: black;
+        padding: 80px 100px;
+        border-bottom: 1px solid gray;
+}
+
+.footer .foo_ctn .ctn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+.footer .foo_ctn .ctn .ct {
+        width: 25%;
+        float: left;
+}
+
+.footer .foo_ctn .ctn .ct h3 {
+        padding-bottom: 10px;
+}
+
+.footer .foo_ctn .ctn .ct a {
+        color: white;
+}
+
+.footer .foo_ctn .ctn .ct li {
+        margin-bottom: 10px;
+}
+
+.footer .foo_ctn .ctn .ct a:hover {
+        color: #0089F7;
+        border-bottom: 1px solid #0089F7;
+}
+
+/* footer */
+
+/* side bar */
+
+.sho{ display: none; cursor: pointer;}
+
+.side_bar {
+
+        height: 100vh;
+        width:0%;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index:1;
+        
+        
+}
+
+.side_bar p{
+        text-align: right;
+}
+
+.fa-x {
+        color: rgba(255, 255, 255, .6);
+        padding: 15px;
+        cursor: pointer;
+}
+
+.fa-x:hover {
+        color: white;
+}
+
+.side_1{ padding: 7px;text-align: center;}
+.side_1 li{display: inline-block; margin-left: 25px;}
+.side_1 li a{color: white;}
+
+.side_2{color: white; padding-top: 20px; }
+.side_2 li{padding: 15px; border-bottom: 1px solid white;cursor: pointer;}

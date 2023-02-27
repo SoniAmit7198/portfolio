@@ -1,0 +1,113 @@
+@media (max-width:576px) {
+    .search .m1 .m3 .m4 .enter .key{
+        padding: 14px 30px 14px 5px;
+    
+    }
+    .search .m1 .m3 .m4 {
+        display: block;
+    }
+    .search .m1 .m3 .m4 .key4{
+        padding: 14px 70px;
+    }
+    .search .m1 .m3 .m4 .enter .t1{
+        left: 70%;
+    }
+    .bg .txt{
+        font-size: 15px !important;
+        padding-bottom: 50px;
+    
+    }
+  
+    .bg {
+       grid-template-rows: 0fr 0fr 0fr;
+    }
+}
+
+
+@media (max-width:786px) {
+ 
+  
+    
+     
+    
+}
+
+@media (max-width:992px) {
+  
+}
+@media (max-width:1200px) {
+    .bg .navv .butn .button{
+        display: none;
+    }
+    .bg .navv{
+        height: 70px;
+        background-color:var(--bs-white);
+        z-index: 1;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        color: black;
+    }
+    .bg .navv .logo{
+      
+         position: absolute;
+         width: 80%;
+         top: 0;
+         left: 10%;
+         
+         
+        
+    }
+    .bg .navv .nav{
+      
+        position: absolute;
+        width: 10%;
+        top: 0;
+        right: 0%;
+       
+       
+   }
+   .bg .navv .butn{
+      
+    position: absolute;
+    width: 10%;
+    top: 0;
+    left: 0%;
+   
+   
+}
+.bg .navv .butn .fa-bars {
+    display: block;
+    line-height: 72px;
+    text-align: left;
+    padding-left: 15px;
+}
+.button{
+    display: none;
+}
+    .bg .navv .logo a{color: black;}
+    
+    .bg .navv .nav .x .li{display: none; padding: 0;}
+    .bg .navv .nav .x .lin .n {display: none;}
+    .bg .navv .nav .x .lin .fa-user{ font-size: 23px;}
+    .bg .navv .nav .x .lin{padding-top:20px;}
+    .bg .navv .logo a .logo2{
+        display:block;
+    }
+    .bg .navv .logo a .logo1{
+        display: none;
+    }
+  
+}
+
+@media (max-width:1400px) {
+    .bg .navv .nav .lin {
+        padding: 32px 5px;
+    }
+    .bg .txt {
+        font-size: 20px;
+        padding-top: 75px;
+    }
+   
+  
+
+}
